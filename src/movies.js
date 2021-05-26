@@ -59,7 +59,7 @@ module.exports = [
     id: 9,
     title: 'O Milage da Cela 7',
     ratingA: 10,
-    ratingB: 5,
+    ratingB: 10,
     posterPath: 'o78AFyz5cbRIEPvi7DwFGO01Wof.jpg'
   },
   {
@@ -80,7 +80,7 @@ module.exports = [
     id: 12,
     title: 'Eu me importo',
     ratingA: 10,
-    ratingB: 1,
+    ratingB: 0,
     posterPath: 'ejMx7Hzh6FkG6BVWRpGYUMONlO2.jpg'
   }
 ]
