@@ -5,6 +5,7 @@ export const Container = styled.div`
 
   border-bottom: 1px solid #fff;
   padding-bottom: 20px;
+  margin: 0px 20px;
     img {
       width: 200px;
       height: auto;
@@ -14,6 +15,13 @@ export const Container = styled.div`
       h1 {
         border-bottom: 0;
         font-size: 50px;
+      }
+
+      @media (max-width: 550px) {
+        h1 {
+        border-bottom: 0;
+        font-size: 30px;
+      }
       }
       div {
         width: 100%;

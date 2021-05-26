@@ -20,7 +20,7 @@ const Home: React.FC = () => {
             <Grid container spacing={3}>
               {movies && movies.map(movie => {
                 return (
-                  <Grid key={movie.id} item xs={6}>
+                  <Grid key={movie.id} item lg={6} sm={12}>
                     <Movie movie={movie} />
                   </Grid>
                 )
