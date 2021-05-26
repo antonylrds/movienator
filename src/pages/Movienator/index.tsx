@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         <Content>
           <h1>Movienator</h1>
           <MovieList>
-            <Grid container spacing={3}>
+            <Grid container spacing={0}>
               {movies && movies.map(movie => {
                 return (
                   <Grid key={movie.id} item lg={6} sm={12}>
