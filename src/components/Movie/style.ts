@@ -6,6 +6,7 @@ export const Container = styled.div`
   border-bottom: 1px solid #fff;
   padding-bottom: 20px;
   margin: 0px 20px;
+  overflow-x: hidden;
     img {
       width: 200px;
       height: auto;
@@ -17,14 +18,33 @@ export const Container = styled.div`
         font-size: 50px;
       }
 
-      @media (max-width: 550px) {
-        h1 {
-        border-bottom: 0;
-        font-size: 30px;
-      }
-      }
+      
       div {
         width: 100%;
       }
     }
+
+    @media (max-width: 400px) {
+      img {
+      width: 100px;
+      height: auto;
+      margin-right: 20px
+    }
+    div {
+      h1 {
+        border-bottom: 0;
+        font-size: 30px;
+      }
+
+      
+      }
+      div {
+        width: 100%;
+      }
+
+      .MuiSvgIcon-root{
+        font-size: 18px;
+      }
+    }
+
 `;

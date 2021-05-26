@@ -43,4 +43,5 @@ export const Content = styled.div`
 
 export const MovieList = styled.div`
   margin-top: 30px;
+  overflow-x: hidden;
 `;
